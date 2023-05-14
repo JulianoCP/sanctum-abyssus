@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://deu7h22rvpret"
+
+[deps]
+
+files=["res://assets/translations/SOA_TRANSLATION.en_US.translation", "res://assets/translations/SOA_TRANSLATION.pt_BR.translation"]
+
+source_file="res://assets/translations/SOA_TRANSLATION.csv"
+dest_files=["res://assets/translations/SOA_TRANSLATION.en_US.translation", "res://assets/translations/SOA_TRANSLATION.pt_BR.translation"]
+
+[params]
+
+compress=true
+delimiter=0

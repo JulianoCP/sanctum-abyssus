@@ -1,0 +1,146 @@
+[gd_scene load_steps=10 format=3 uid="uid://x6ljmliylk5p"]
+
+[ext_resource type="Texture2D" uid="uid://t0s7yn2ptpvn" path="res://assets/textures/player/movement/tx_base_rifle_man.png" id="1_8n8wn"]
+[ext_resource type="Script" path="res://sources/game/prefabs/hud/status/healths/pref_player_health_status.gd" id="1_hh626"]
+[ext_resource type="FontFile" uid="uid://bbc2v73so0sxg" path="res://assets/fonts/fnt_lobby_3.ttf" id="2_gyth3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oiurh"]
+bg_color = Color(0.0627451, 0.0117647, 0.0666667, 0.705882)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.0313726, 0, 0.0313726, 0.705882)
+border_blend = true
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k4b2b"]
+bg_color = Color(0.537255, 0.556863, 0.901961, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.101961, 0.152941, 0.278431, 1)
+border_blend = true
+anti_aliasing = false
+
+[sub_resource type="Animation" id="Animation_a2sps"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_swjhe"]
+resource_name = "anim_hide"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_n5swm"]
+resource_name = "anim_show"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_eqj66"]
+_data = {
+"RESET": SubResource("Animation_a2sps"),
+"anim_hide": SubResource("Animation_swjhe"),
+"anim_show": SubResource("Animation_n5swm")
+}
+
+[node name="PlayerHealthStatus" type="Control"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(78, 20)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 78.0
+offset_bottom = 20.0
+mouse_filter = 2
+script = ExtResource("1_hh626")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(70, 4)
+layout_mode = 2
+offset_left = 6.0
+offset_top = 8.0
+offset_right = 76.0
+offset_bottom = 14.0
+mouse_filter = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_oiurh")
+theme_override_styles/fill = SubResource("StyleBoxFlat_k4b2b")
+value = 100.0
+rounded = true
+show_percentage = false
+
+[node name="Icon" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(17, 17)
+layout_mode = 2
+offset_left = -3.0
+offset_top = 3.0
+offset_right = 14.0
+offset_bottom = 20.0
+mouse_filter = 2
+texture = ExtResource("1_8n8wn")
+expand_mode = 1
+
+[node name="PlayerName" type="Label" parent="."]
+custom_minimum_size = Vector2(51, 9)
+layout_mode = 2
+offset_left = 9.0
+offset_right = 61.0
+offset_bottom = 9.0
+theme_override_fonts/font = ExtResource("2_gyth3")
+theme_override_font_sizes/font_size = 6
+text = "Pyliot"
+vertical_alignment = 1
+clip_text = true
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+reset_on_save = false
+method_call_mode = 1
+libraries = {
+"": SubResource("AnimationLibrary_eqj66")
+}

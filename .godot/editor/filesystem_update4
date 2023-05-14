@@ -1,0 +1,3 @@
+res://scenes/game/scn_sanctum_abyssus_unus.tscn
+res://sources/game/manager/scp_scene_manager.gd
+res://assets/themes/th_options_button.tres

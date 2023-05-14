@@ -1,0 +1,904 @@
+[gd_scene load_steps=36 format=3 uid="uid://bairw3ukrrspj"]
+
+[ext_resource type="Script" path="res://sources/game/lobby/scp_lobby_middle_menu.gd" id="1"]
+[ext_resource type="Script" path="res://sources/game/scenes/scp_lobby_scene.gd" id="1_1j50g"]
+[ext_resource type="PackedScene" uid="uid://crah6jklkt84u" path="res://prefabs/game/display/buttons/pref_simple_button.tscn" id="2"]
+[ext_resource type="FontFile" uid="uid://bbc2v73so0sxg" path="res://assets/fonts/fnt_lobby_3.ttf" id="3"]
+[ext_resource type="Script" path="res://sources/game/lobby/scp_lobby_preparation.gd" id="4"]
+[ext_resource type="Script" path="res://sources/game/lobby/scp_lobby_multiplayer.gd" id="5"]
+[ext_resource type="Script" path="res://sources/game/lobby/scp_lobby_multiplayer_options.gd" id="6"]
+[ext_resource type="Script" path="res://sources/game/lobby/scp_join_lobby.gd" id="6_12tm5"]
+[ext_resource type="Script" path="res://sources/game/lobby/scp_lobby_container.gd" id="7"]
+[ext_resource type="PackedScene" uid="uid://sapopswafhgv" path="res://prefabs/game/display/texts/pref_chat.tscn" id="8"]
+[ext_resource type="Script" path="res://sources/game/lobby/scp_lobby_configuration.gd" id="9"]
+[ext_resource type="PackedScene" uid="uid://bd2yitgkqwjdu" path="res://prefabs/game/display/texts/pref_input.tscn" id="10"]
+[ext_resource type="Theme" uid="uid://bua0kgtfxq6se" path="res://assets/themes/th_options_button.tres" id="11_bpe8s"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ngy2"]
+bg_color = Color(0.160784, 0.129412, 0.176471, 1)
+
+[sub_resource type="StyleBoxFlat" id="2"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_bottom = 1
+border_color = Color(0.709804, 0.443137, 0.14902, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="1"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_bottom = 1
+border_color = Color(0.513726, 0.34902, 0.623529, 1)
+border_blend = true
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_451m3"]
+bg_color = Color(0.207843, 0.172549, 0.219608, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="FontFile" id="12"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
+fallbacks = Array[Font]([ExtResource("3")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/6/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/8/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/10/0 = Vector2(0, 0)
+cache/0/6/0/ascent = 0.0
+cache/0/6/0/descent = 0.0
+cache/0/6/0/underline_position = 0.0
+cache/0/6/0/underline_thickness = 0.0
+cache/0/6/0/scale = 1.0
+cache/0/6/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/6/0/kerning_overrides/6/0 = Vector2(0, 0)
+cache/0/6/0/kerning_overrides/8/0 = Vector2(0, 0)
+cache/0/6/0/kerning_overrides/10/0 = Vector2(0, 0)
+cache/0/8/0/ascent = 0.0
+cache/0/8/0/descent = 0.0
+cache/0/8/0/underline_position = 0.0
+cache/0/8/0/underline_thickness = 0.0
+cache/0/8/0/scale = 1.0
+cache/0/8/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/8/0/kerning_overrides/6/0 = Vector2(0, 0)
+cache/0/8/0/kerning_overrides/8/0 = Vector2(0, 0)
+cache/0/8/0/kerning_overrides/10/0 = Vector2(0, 0)
+cache/0/10/0/ascent = 0.0
+cache/0/10/0/descent = 0.0
+cache/0/10/0/underline_position = 0.0
+cache/0/10/0/underline_thickness = 0.0
+cache/0/10/0/scale = 1.0
+cache/0/10/0/glyphs/0/advance = Vector2(0, 0)
+cache/0/10/0/glyphs/0/offset = Vector2(0, 0)
+cache/0/10/0/glyphs/0/size = Vector2(0, 0)
+cache/0/10/0/glyphs/0/uv_rect = Rect2(0, 0, 0, 0)
+cache/0/10/0/glyphs/0/texture_idx = -1
+cache/0/10/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/10/0/kerning_overrides/6/0 = Vector2(0, 0)
+cache/0/10/0/kerning_overrides/8/0 = Vector2(0, 0)
+cache/0/10/0/kerning_overrides/10/0 = Vector2(0, 0)
+
+[sub_resource type="StyleBoxFlat" id="8"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_left = 1
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
+
+[sub_resource type="StyleBoxFlat" id="7"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_bottom = 1
+border_color = Color(0.513726, 0.34902, 0.623529, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vsumm"]
+content_margin_left = 2.0
+bg_color = Color(0.215686, 0.14902, 0.196078, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+anti_aliasing_size = 0.2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ivmw8"]
+bg_color = Color(0.215686, 0.14902, 0.196078, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+anti_aliasing_size = 0.2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b3e5a"]
+bg_color = Color(0.215686, 0.14902, 0.196078, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+anti_aliasing_size = 0.2
+
+[sub_resource type="StyleBoxFlat" id="10"]
+bg_color = Color(0.211765, 0.145098, 0.207843, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.113725, 0.117647, 0.168627, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="11"]
+bg_color = Color(0.2, 0.192157, 0.231373, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.137255, 0.141176, 0.207843, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3g5iq"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_left = 1
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fetym"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t02ns"]
+bg_color = Color(0.372549, 0.258824, 0.541176, 1)
+corner_radius_top_right = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wxamv"]
+bg_color = Color(0.329412, 0.211765, 0.380392, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.439216, 0.294118, 0.505882, 1)
+border_blend = true
+corner_radius_top_right = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1hvt3"]
+bg_color = Color(0, 0, 0, 0)
+border_width_right = 6
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+corner_radius_top_right = 2
+anti_aliasing = false
+
+[sub_resource type="Theme" id="Theme_xch60"]
+VScrollBar/icons/decrement = null
+VScrollBar/icons/decrement_highlight = null
+VScrollBar/icons/decrement_pressed = null
+VScrollBar/icons/increment = null
+VScrollBar/icons/increment_highlight = null
+VScrollBar/icons/increment_pressed = null
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_t02ns")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_wxamv")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_t02ns")
+VScrollBar/styles/scroll = SubResource("StyleBoxFlat_1hvt3")
+VScrollBar/styles/scroll_focus = null
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xp21x"]
+content_margin_top = 6.0
+content_margin_bottom = 5.0
+bg_color = Color(0.207843, 0.172549, 0.219608, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+anti_aliasing_size = 0.2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0i5fg"]
+bg_color = Color(0.337255, 0.223529, 0.247059, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_bottom_right = 2
+anti_aliasing_size = 0.2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qjwh1"]
+bg_color = Color(0.368627, 0.247059, 0.270588, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.627451, 0.352941, 0.129412, 1)
+border_blend = true
+corner_radius_bottom_right = 2
+anti_aliasing_size = 0.2
+
+[sub_resource type="StyleBoxFlat" id="6"]
+bg_color = Color(0.337255, 0.223529, 0.247059, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+anti_aliasing_size = 0.2
+
+[node name="LobbyScene" type="Node"]
+script = ExtResource("1_1j50g")
+metadata/_edit_horizontal_guides_ = [263.0]
+
+[node name="LobbyCanvas" type="CanvasLayer" parent="."]
+
+[node name="LobbyContainer" type="Control" parent="LobbyCanvas"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("7")
+middle_menu_container = NodePath("MiddleMenu")
+multiplayer_container = NodePath("Multiplayer")
+multiplayer_options_container = NodePath("Multiplayer/MultiplayerOptions")
+multiplayer_join_lobby_container = NodePath("Multiplayer/JoinLobby")
+multiplayer_preparation_container = NodePath("Multiplayer/PreparationLobby")
+multiplayer_configuration_container = NodePath("Multiplayer/ConfigurationLobby")
+
+[node name="BackgroundPanel" type="Panel" parent="LobbyCanvas/LobbyContainer"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6ngy2")
+
+[node name="MiddleMenu" type="Control" parent="LobbyCanvas/LobbyContainer"]
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = ExtResource("1")
+multiplayer_container = NodePath("../Multiplayer")
+
+[node name="HBox" type="HBoxContainer" parent="LobbyCanvas/LobbyContainer/MiddleMenu"]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -85.0
+offset_top = -135.0
+offset_right = 85.0
+offset_bottom = 135.0
+mouse_filter = 2
+alignment = 1
+
+[node name="VBox" type="VBoxContainer" parent="LobbyCanvas/LobbyContainer/MiddleMenu/HBox"]
+layout_mode = 2
+mouse_filter = 2
+alignment = 1
+
+[node name="SinglePlayerButton" parent="LobbyCanvas/LobbyContainer/MiddleMenu/HBox/VBox" instance=ExtResource("2")]
+visible = false
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_single_player"
+translate_key = "KEY_SINGLE_PLAYER"
+
+[node name="HostGameButton" parent="LobbyCanvas/LobbyContainer/MiddleMenu/HBox/VBox" instance=ExtResource("2")]
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_multiplayer"
+translate_key = "KEY_MULTIPLAYER"
+
+[node name="SettingsButton" parent="LobbyCanvas/LobbyContainer/MiddleMenu/HBox/VBox" instance=ExtResource("2")]
+visible = false
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_setting"
+translate_key = "KEY_SETTINGS"
+
+[node name="CreditsButton" parent="LobbyCanvas/LobbyContainer/MiddleMenu/HBox/VBox" instance=ExtResource("2")]
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_credits"
+translate_key = "KEY_CREDITS"
+
+[node name="CreditsPopup" type="Control" parent="LobbyCanvas/LobbyContainer/MiddleMenu"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="Panel" parent="LobbyCanvas/LobbyContainer/MiddleMenu/CreditsPopup"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -120.0
+offset_top = -59.5
+offset_right = 120.0
+offset_bottom = 59.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_451m3")
+
+[node name="CreditsLabel" type="Label" parent="LobbyCanvas/LobbyContainer/MiddleMenu/CreditsPopup/Background"]
+custom_minimum_size = Vector2(79, 18)
+layout_mode = 0
+offset_right = 240.0
+offset_bottom = 120.0
+theme_override_fonts/font = SubResource("12")
+theme_override_font_sizes/font_size = 10
+text = "CREATED BY 
+Juliano Cesar Petini
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="BackButton" parent="LobbyCanvas/LobbyContainer/MiddleMenu/CreditsPopup/Background" instance=ExtResource("2")]
+custom_minimum_size = Vector2(80, 18)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -76.0
+offset_top = 11.0
+offset_right = 76.0
+offset_bottom = 29.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("8")
+theme_override_styles/hover = SubResource("7")
+theme_override_styles/pressed = SubResource("8")
+theme_override_styles/disabled = SubResource("8")
+theme_override_styles/focus = SubResource("8")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_on_credits_back_button"
+translate_key = "KEY_BACK"
+
+[node name="Multiplayer" type="Control" parent="LobbyCanvas/LobbyContainer"]
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = ExtResource("5")
+
+[node name="MultiplayerOptions" type="Control" parent="LobbyCanvas/LobbyContainer/Multiplayer"]
+visible = false
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("6")
+configuration_container = NodePath("../ConfigurationLobby")
+multiplayer_container = NodePath("..")
+middle_menu_container = NodePath("../../MiddleMenu")
+
+[node name="HBox" type="HBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/MultiplayerOptions"]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -85.0
+offset_top = -135.0
+offset_right = 85.0
+offset_bottom = 135.0
+mouse_filter = 2
+alignment = 1
+
+[node name="VBox" type="VBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/MultiplayerOptions/HBox"]
+layout_mode = 2
+mouse_filter = 2
+alignment = 1
+
+[node name="JoinGameButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/MultiplayerOptions/HBox/VBox" instance=ExtResource("2")]
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_join_game"
+translate_key = "KEY_JOIN_GAME"
+
+[node name="HostGameButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/MultiplayerOptions/HBox/VBox" instance=ExtResource("2")]
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_host_game"
+translate_key = "KEY_HOST_GAME"
+
+[node name="BackButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/MultiplayerOptions/HBox/VBox" instance=ExtResource("2")]
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_back"
+translate_key = "KEY_BACK"
+
+[node name="JoinLobby" type="Control" parent="LobbyCanvas/LobbyContainer/Multiplayer"]
+visible = false
+anchors_preset = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("6_12tm5")
+
+[node name="Input" parent="LobbyCanvas/LobbyContainer/Multiplayer/JoinLobby" instance=ExtResource("10")]
+custom_minimum_size = Vector2(200, 20)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -11.0
+offset_right = 100.0
+offset_bottom = 9.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_vsumm")
+theme_override_styles/focus = SubResource("StyleBoxFlat_vsumm")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_vsumm")
+placeholder_text = "KEY_LOBBY_ID"
+alignment = 1
+
+[node name="HBox" type="HBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/JoinLobby"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -120.0
+offset_top = 12.0
+offset_right = 120.0
+offset_bottom = 32.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="BackButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/JoinLobby/HBox" instance=ExtResource("2")]
+custom_minimum_size = Vector2(90, 20)
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../..")
+call_the_method = "_back"
+translate_key = "KEY_BACK"
+
+[node name="JoinButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/JoinLobby/HBox" instance=ExtResource("2")]
+custom_minimum_size = Vector2(90, 20)
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("2")
+theme_override_styles/hover = SubResource("1")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../..")
+call_the_method = "_join_game"
+translate_key = "KEY_JOIN_GAME"
+
+[node name="ConfigurationLobby" type="Control" parent="LobbyCanvas/LobbyContainer/Multiplayer"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("9")
+password_input_path = NodePath("Background/VBox_1/InputPassword")
+preparation_container = NodePath("../PreparationLobby")
+multiplayer_options_container = NodePath("../MultiplayerOptions")
+
+[node name="Background" type="Panel" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -120.0
+offset_top = -59.5
+offset_right = 120.0
+offset_bottom = 59.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_451m3")
+
+[node name="VBox_1" type="VBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -97.5
+offset_top = -48.0
+offset_right = 97.5
+offset_bottom = 48.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Input" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_1" instance=ExtResource("10")]
+custom_minimum_size = Vector2(183, 20)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_ivmw8")
+theme_override_styles/focus = SubResource("StyleBoxFlat_vsumm")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_b3e5a")
+placeholder_text = "KEY_WORLD_NAME"
+alignment = 1
+
+[node name="HBox_1" type="HBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_1"]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="Label" type="Label" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_1/HBox_1"]
+custom_minimum_size = Vector2(79, 18)
+layout_mode = 2
+theme_override_fonts/font = SubResource("12")
+theme_override_font_sizes/font_size = 10
+text = "KEY_VISIBLE_TO"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="OptionsButton" type="OptionButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_1/HBox_1"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme = ExtResource("11_bpe8s")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_disabled_color = Color(0.560784, 0.352941, 0.215686, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 8
+theme_override_styles/focus = SubResource("10")
+theme_override_styles/normal = SubResource("10")
+theme_override_styles/hover = SubResource("11")
+theme_override_styles/pressed = SubResource("10")
+theme_override_styles/disabled = SubResource("10")
+disabled = true
+alignment = 1
+clip_text = true
+icon_alignment = 1
+
+[node name="InputPassword" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_1" instance=ExtResource("10")]
+visible = false
+custom_minimum_size = Vector2(187, 18)
+layout_mode = 2
+placeholder_text = "KEY_PASSWORD"
+alignment = 1
+secret = true
+
+[node name="VBox_2" type="VBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -93.5
+offset_top = 7.0
+offset_right = 93.5
+offset_bottom = 53.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="HBox_2" type="HBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_2"]
+custom_minimum_size = Vector2(187, 18)
+layout_mode = 2
+theme_override_constants/separation = 25
+alignment = 1
+
+[node name="BackButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_2/HBox_2" instance=ExtResource("2")]
+custom_minimum_size = Vector2(80, 18)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("8")
+theme_override_styles/hover = SubResource("7")
+theme_override_styles/pressed = SubResource("8")
+theme_override_styles/disabled = SubResource("8")
+theme_override_styles/focus = SubResource("8")
+nodepath_to_call_method = NodePath("../../../..")
+call_the_method = "_on_back_button"
+translate_key = "KEY_BACK"
+
+[node name="CreateGameButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_2/HBox_2" instance=ExtResource("2")]
+custom_minimum_size = Vector2(80, 18)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("8")
+theme_override_styles/hover = SubResource("7")
+theme_override_styles/pressed = SubResource("8")
+theme_override_styles/disabled = SubResource("8")
+theme_override_styles/focus = SubResource("8")
+nodepath_to_call_method = NodePath("../../../..")
+call_the_method = "_on_create_game_button"
+translate_key = "KEY_CREATE_GAME"
+
+[node name="PreparationLobby" type="Control" parent="LobbyCanvas/LobbyContainer/Multiplayer"]
+visible = false
+anchors_preset = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -135.0
+offset_right = 240.0
+offset_bottom = 135.0
+script = ExtResource("4")
+chat_nodepath = NodePath("VBox/Background/Chat")
+input_nodepath = NodePath("VBox/Background/Input")
+players_contianer_nodepath = NodePath("VBox/PlayersContainer")
+start_game_button_nodepath = NodePath("HBox/StartGameButton")
+leave_game_button_nodepath = NodePath("HBox/LeaveGameButton")
+
+[node name="HBox" type="HBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -125.0
+offset_top = -33.0
+offset_right = 125.0
+offset_bottom = -13.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="LeaveGameButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby/HBox" instance=ExtResource("2")]
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_3g5iq")
+theme_override_styles/hover = SubResource("7")
+theme_override_styles/pressed = SubResource("2")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../..")
+call_the_method = "leave_from_steam_lobby"
+translate_key = "KEY_LEAVE_GAME"
+
+[node name="StartGameButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby/HBox" instance=ExtResource("2")]
+visible = false
+custom_minimum_size = Vector2(120, 20)
+layout_mode = 2
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("8")
+theme_override_styles/hover = SubResource("7")
+theme_override_styles/pressed = SubResource("8")
+theme_override_styles/disabled = SubResource("2")
+theme_override_styles/focus = SubResource("2")
+nodepath_to_call_method = NodePath("../..")
+call_the_method = "_start_game"
+translate_key = "KEY_START_GAME"
+
+[node name="VBox" type="VBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby"]
+custom_minimum_size = Vector2(290, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -145.0
+offset_top = -79.0
+offset_right = 145.0
+offset_bottom = 79.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="PlayersContainer" type="HBoxContainer" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby/VBox"]
+custom_minimum_size = Vector2(0, 70)
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Background" type="Panel" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby/VBox"]
+custom_minimum_size = Vector2(260, 84)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_fetym")
+
+[node name="Chat" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby/VBox/Background" instance=ExtResource("8")]
+custom_minimum_size = Vector2(250, 72)
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.024
+anchor_right = 1.0
+anchor_bottom = 0.833
+offset_top = 0.016
+offset_bottom = 0.0279922
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_xch60")
+theme_override_styles/normal = SubResource("StyleBoxFlat_xp21x")
+
+[node name="Input" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby/VBox/Background" instance=ExtResource("10")]
+custom_minimum_size = Vector2(240, 16)
+layout_mode = 1
+anchor_top = 0.81
+anchor_right = 0.824
+anchor_bottom = 1.0
+offset_top = -0.0400009
+offset_right = 1.03999
+offset_bottom = 0.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_vsumm")
+theme_override_styles/focus = SubResource("StyleBoxFlat_vsumm")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_vsumm")
+
+[node name="SendButton" parent="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby/VBox/Background" instance=ExtResource("2")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.821
+anchor_top = 0.81
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -0.140015
+offset_top = -0.0400085
+offset_right = 0.0
+offset_bottom = 0.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.878431, 0.760784, 0.952941, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_0i5fg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_qjwh1")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0i5fg")
+theme_override_styles/disabled = SubResource("6")
+theme_override_styles/focus = SubResource("6")
+nodepath_to_call_method = NodePath("../../..")
+call_the_method = "_on_send_button_down"
+translate_key = "KEY_SEND"
+
+[connection signal="text_submitted" from="LobbyCanvas/LobbyContainer/Multiplayer/JoinLobby/Input" to="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby" method="_on_Input_text_entered"]
+[connection signal="item_selected" from="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby/Background/VBox_1/HBox_1/OptionsButton" to="LobbyCanvas/LobbyContainer/Multiplayer/ConfigurationLobby" method="_on_OptionsButton_item_selected"]
+[connection signal="text_submitted" from="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby/VBox/Background/Input" to="LobbyCanvas/LobbyContainer/Multiplayer/PreparationLobby" method="_on_Input_text_entered"]

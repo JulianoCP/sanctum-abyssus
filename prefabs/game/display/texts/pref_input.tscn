@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://bd2yitgkqwjdu"]
+
+[ext_resource type="FontFile" uid="uid://bbc2v73so0sxg" path="res://assets/fonts/fnt_lobby_3.ttf" id="1"]
+
+[sub_resource type="FontFile" id="3"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
+fallbacks = Array[Font]([ExtResource("1"), ExtResource("1")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/8/0 = Vector2(0, 0)
+cache/0/8/0/ascent = 0.0
+cache/0/8/0/descent = 0.0
+cache/0/8/0/underline_position = 0.0
+cache/0/8/0/underline_thickness = 0.0
+cache/0/8/0/scale = 1.0
+cache/0/8/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/8/0/kerning_overrides/8/0 = Vector2(0, 0)
+
+[sub_resource type="StyleBoxFlat" id="4"]
+bg_color = Color(0.172549, 0.164706, 0.196078, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.0823529, 0.0901961, 0.156863, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="5"]
+bg_color = Color(0.192157, 0.180392, 0.219608, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.0823529, 0.0901961, 0.156863, 1)
+border_blend = true
+
+[node name="Input" type="LineEdit"]
+anchors_preset = -1
+anchor_right = 0.104
+anchor_bottom = 0.037
+offset_right = 0.079998
+offset_bottom = 0.0100002
+theme_override_fonts/font = SubResource("3")
+theme_override_font_sizes/font_size = 8
+theme_override_styles/normal = SubResource("4")
+theme_override_styles/focus = SubResource("5")
+theme_override_styles/read_only = SubResource("4")
+placeholder_text = ">"
+max_length = 100
+caret_blink = true

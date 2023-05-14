@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://do4o3gdlptudb"]
+
+[ext_resource type="Shader" path="res://shaders/game/entities/hits/sh_take_hit.gdshader" id="1_fptcd"]
+
+[resource]
+resource_local_to_scene = true
+shader = ExtResource("1_fptcd")
+shader_parameter/active = false
+shader_parameter/tint = Color(0.92549, 0.917647, 0.870588, 1)

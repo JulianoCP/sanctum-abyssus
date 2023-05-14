@@ -1,0 +1,831 @@
+[gd_scene load_steps=54 format=3 uid="uid://b2b3achi1cju5"]
+
+[ext_resource type="Script" path="res://sources/debug/scp_debug_logger.gd" id="1"]
+[ext_resource type="Script" path="res://sources/game/scenes/scp_world.gd" id="1_l28sx"]
+[ext_resource type="Script" path="res://sources/network/steam/scp_steam.gd" id="3_h1ry3"]
+[ext_resource type="Script" path="res://sources/network/steam/scp_steam_manager.gd" id="4_025e1"]
+[ext_resource type="Script" path="res://sources/network/steam/scp_steam_lobby.gd" id="5_263y7"]
+[ext_resource type="Script" path="res://sources/game/manager/scp_game_manager.gd" id="6_lf5bs"]
+[ext_resource type="Script" path="res://sources/network/steam/scp_steam_connection.gd" id="6_ngoig"]
+[ext_resource type="Script" path="res://sources/game/manager/scp_scene_manager.gd" id="6_sxea1"]
+[ext_resource type="Script" path="res://sources/network/server/scp_server.gd" id="7_dn43v"]
+[ext_resource type="Script" path="res://sources/network/server/scp_connection.gd" id="8_m877k"]
+[ext_resource type="Script" path="res://sources/network/server/scp_scene.gd" id="9_0yolr"]
+[ext_resource type="Script" path="res://sources/network/server/scp_entities.gd" id="9_y2rfj"]
+[ext_resource type="Script" path="res://sources/network/server/scp_management.gd" id="11_e3vqx"]
+[ext_resource type="Script" path="res://sources/network/server/scp_server_control.gd" id="12_qxbu8"]
+[ext_resource type="Script" path="res://sources/game/scenes/scp_gui.gd" id="14_p1mi1"]
+[ext_resource type="Script" path="res://sources/game/scenes/scp_transitions.gd" id="14_u6kye"]
+[ext_resource type="Shader" path="res://shaders/ui/sh_transition_01.gdshader" id="14_vlces"]
+[ext_resource type="Shader" path="res://shaders/ui/sh_transition_02.gdshader" id="15_qcq8r"]
+[ext_resource type="Shader" path="res://shaders/ui/sh_camera_blur.gdshader" id="17_efl43"]
+[ext_resource type="Script" path="res://sources/game/scenes/scp_hud.gd" id="18_us3ca"]
+[ext_resource type="FontFile" uid="uid://bbc2v73so0sxg" path="res://assets/fonts/fnt_lobby_3.ttf" id="19_hw5ow"]
+[ext_resource type="Texture2D" uid="uid://c4ysd4yf1xeuq" path="res://assets/textures/icons/gui/hud/score/tx_enemy_icon.png" id="19_iqyna"]
+[ext_resource type="Script" path="res://sources/game/hud/score/container/scp_score_container.gd" id="19_vnexe"]
+[ext_resource type="Script" path="res://sources/game/hud/score/elimination/scp_elimination.gd" id="20_rrptv"]
+[ext_resource type="PackedScene" uid="uid://crah6jklkt84u" path="res://prefabs/game/display/buttons/pref_simple_button.tscn" id="20_ybtni"]
+[ext_resource type="Script" path="res://sources/game/scenes/scp_game_vfx.gd" id="22_n0tqx"]
+[ext_resource type="Script" path="res://sources/game/hud/results/scp_results_container.gd" id="23_astlr"]
+[ext_resource type="Script" path="res://sources/game/hud/status/healths/scp_healths.gd" id="25_kar06"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tr4to"]
+shader = ExtResource("14_vlces")
+shader_parameter/progress = 1.0
+shader_parameter/diamondPixelSize = 16.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j8tbd"]
+shader = ExtResource("15_qcq8r")
+shader_parameter/progress = 0.0
+shader_parameter/diamondPixelSize = 16.0
+
+[sub_resource type="Animation" id="Animation_68awt"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_lsenk"]
+resource_name = "anim_default"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Bg_2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Bg_2:material:shader_parameter/progress")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Bg_1:material:shader_parameter/progress")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Bg_1:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_sjhlq"]
+resource_name = "anim_transition_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Bg_2:material:shader_parameter/progress")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Bg_2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Bg_1:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Bg_1:material:shader_parameter/progress")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_gkmre"]
+resource_name = "anim_transition_out"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Bg_2:material:shader_parameter/progress")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Bg_2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Bg_1:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, true, false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Bg_1:material:shader_parameter/progress")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [1.0, 1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vh3x6"]
+_data = {
+"RESET": SubResource("Animation_68awt"),
+"anim_default": SubResource("Animation_lsenk"),
+"anim_transition_in": SubResource("Animation_sjhlq"),
+"anim_transition_out": SubResource("Animation_gkmre")
+}
+
+[sub_resource type="Animation" id="Animation_cpa2l"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_f052x"]
+resource_name = "anim_hide_results"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_fmxio"]
+resource_name = "anim_show_results"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_u2nur"]
+_data = {
+"RESET": SubResource("Animation_cpa2l"),
+"anim_hide_results": SubResource("Animation_f052x"),
+"anim_show_results": SubResource("Animation_fmxio")
+}
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1gadd"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_bottom = 1
+border_color = Color(0.576471, 0.321569, 0.113725, 1)
+border_blend = true
+corner_radius_top_left = 1
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yfoee"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_bottom = 1
+border_color = Color(0.513726, 0.34902, 0.623529, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mytjd"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_bottom = 1
+border_color = Color(0.709804, 0.443137, 0.14902, 1)
+border_blend = true
+
+[sub_resource type="Animation" id="Animation_8n4ph"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_iejat"]
+resource_name = "anim_hide_score_container"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ysp3v"]
+resource_name = "anim_score_container"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ResultsContainer:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kuyaq"]
+_data = {
+"RESET": SubResource("Animation_8n4ph"),
+"anim_hide_score_container": SubResource("Animation_iejat"),
+"anim_score_container": SubResource("Animation_ysp3v")
+}
+
+[sub_resource type="Animation" id="Animation_rf22q"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_lv3ab"]
+resource_name = "anim_enemy_icon"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("EnemyIcon:flip_h")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pb426"]
+_data = {
+"RESET": SubResource("Animation_rf22q"),
+"anim_enemy_icon": SubResource("Animation_lv3ab")
+}
+
+[sub_resource type="Animation" id="Animation_lt00n"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("EnemyCountLabel:theme_override_font_sizes/normal_font_size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [16]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EnemyCountLabel:theme_override_colors/default_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.984314, 0.815686, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_k7iha"]
+resource_name = "anim_enemy_count_label"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("EnemyCountLabel:theme_override_font_sizes/normal_font_size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [14, 22, 14]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EnemyCountLabel:theme_override_colors/default_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0.901961, 0.815686, 0.72549, 1), Color(0.729412, 0.364706, 0.85098, 1), Color(0.901961, 0.815686, 0.72549, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_51m4h"]
+_data = {
+"RESET": SubResource("Animation_lt00n"),
+"anim_enemy_count_label": SubResource("Animation_k7iha")
+}
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_776pg"]
+shader = ExtResource("17_efl43")
+shader_parameter/overlay = false
+shader_parameter/scanlines_opacity = 0.4
+shader_parameter/scanlines_width = 0.25
+shader_parameter/grille_opacity = 0.2
+shader_parameter/resolution = Vector2(640, 480)
+shader_parameter/pixelate = false
+shader_parameter/roll = false
+shader_parameter/roll_speed = 0.0
+shader_parameter/roll_size = 0.0
+shader_parameter/roll_variation = 1.8
+shader_parameter/distort_intensity = 0.05
+shader_parameter/noise_opacity = 0.4
+shader_parameter/noise_speed = 5.0
+shader_parameter/static_noise_intensity = 0.05
+shader_parameter/aberration = 0.00100005
+shader_parameter/brightness = 1.4
+shader_parameter/discolor = true
+shader_parameter/warp_amount = 0.01
+shader_parameter/clip_warp = true
+shader_parameter/vignette_intensity = 0.3
+shader_parameter/vignette_opacity = 0.8
+
+[node name="World" type="Node"]
+script = ExtResource("1_l28sx")
+global_time_to_sync_server_control = 0.5
+
+[node name="Debug" type="Node" parent="."]
+
+[node name="Logger" type="Node" parent="Debug"]
+script = ExtResource("1")
+print_on_screen = false
+time_to_remove_logger = 5
+
+[node name="LoggerCanvas" type="CanvasLayer" parent="Debug/Logger"]
+layer = 10
+
+[node name="LoggerContainer" type="VBoxContainer" parent="Debug/Logger/LoggerCanvas"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = -4.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/separation = -4
+
+[node name="LatencyLabel" type="Label" parent="Debug/Logger/LoggerCanvas"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -3.0
+offset_right = -2.0
+offset_bottom = 7.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 4
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Network" type="Node" parent="."]
+
+[node name="Steam" type="Node" parent="Network"]
+script = ExtResource("3_h1ry3")
+
+[node name="SteamManager" type="Node" parent="Network/Steam"]
+script = ExtResource("4_025e1")
+
+[node name="SteamLobby" type="Node" parent="Network/Steam"]
+script = ExtResource("5_263y7")
+
+[node name="SteamConnection" type="Node" parent="Network/Steam"]
+script = ExtResource("6_ngoig")
+
+[node name="Server" type="Node" parent="Network"]
+script = ExtResource("7_dn43v")
+
+[node name="ServerConnection" type="Node" parent="Network/Server"]
+script = ExtResource("8_m877k")
+
+[node name="ServerEntities" type="Node" parent="Network/Server"]
+script = ExtResource("9_y2rfj")
+
+[node name="ServerEnvironment" type="Node" parent="Network/Server"]
+
+[node name="ServerScenes" type="Node" parent="Network/Server"]
+script = ExtResource("9_0yolr")
+
+[node name="ServerManagement" type="Node" parent="Network/Server"]
+script = ExtResource("11_e3vqx")
+
+[node name="ServerControl" type="Node" parent="Network/Server"]
+script = ExtResource("12_qxbu8")
+
+[node name="ControlTimer" type="Timer" parent="Network/Server/ServerControl"]
+
+[node name="GameManager" type="Node" parent="."]
+script = ExtResource("6_lf5bs")
+first_scene_to_load = "res://scenes/game/scn_lobby_scene.tscn"
+
+[node name="Display" type="Node" parent="GameManager"]
+
+[node name="GUI" type="CanvasLayer" parent="GameManager/Display"]
+layer = 99
+script = ExtResource("14_p1mi1")
+
+[node name="Transitions" type="Node" parent="GameManager/Display/GUI"]
+script = ExtResource("14_u6kye")
+
+[node name="Bg_1" type="ColorRect" parent="GameManager/Display/GUI/Transitions"]
+material = SubResource("ShaderMaterial_tr4to")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0980392, 0.0745098, 0.105882, 1)
+
+[node name="Bg_2" type="ColorRect" parent="GameManager/Display/GUI/Transitions"]
+material = SubResource("ShaderMaterial_j8tbd")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0980392, 0.0745098, 0.105882, 1)
+
+[node name="TransitionsAnimation" type="AnimationPlayer" parent="GameManager/Display/GUI/Transitions"]
+libraries = {
+"": SubResource("AnimationLibrary_vh3x6")
+}
+
+[node name="HUD" type="Node" parent="GameManager/Display/GUI"]
+script = ExtResource("18_us3ca")
+path_score_container = NodePath("Score/ScoreContainer")
+
+[node name="Score" type="Node" parent="GameManager/Display/GUI/HUD"]
+
+[node name="ResultsContainer" type="Control" parent="GameManager/Display/GUI/HUD/Score"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("23_astlr")
+
+[node name="AnimationContainer" type="AnimationPlayer" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer"]
+reset_on_save = false
+method_call_mode = 1
+libraries = {
+"": SubResource("AnimationLibrary_u2nur")
+}
+
+[node name="Elimination" type="Control" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="CenterDatas" type="VBoxContainer" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer/Elimination"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.5
+offset_top = -91.0
+offset_right = 128.5
+offset_bottom = 91.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TotalEliminations" type="VBoxContainer" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer/Elimination/CenterDatas"]
+layout_mode = 2
+mouse_filter = 2
+alignment = 1
+
+[node name="ResultLabel" type="Label" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer/Elimination/CenterDatas/TotalEliminations"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("19_hw5ow")
+theme_override_font_sizes/font_size = 24
+text = "- RESULTS -"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TotalLabel" type="Label" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer/Elimination/CenterDatas/TotalEliminations"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("19_hw5ow")
+theme_override_font_sizes/font_size = 14
+text = "TOTAL: 300x"
+horizontal_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer/Elimination/CenterDatas/TotalEliminations"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="PlayerResults" type="VBoxContainer" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer/Elimination/CenterDatas"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 2
+
+[node name="BackButton" parent="GameManager/Display/GUI/HUD/Score/ResultsContainer/Elimination" instance=ExtResource("20_ybtni")]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -60.0
+offset_top = -50.0
+offset_right = 60.0
+offset_bottom = -30.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.690196, 0.921569, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_1gadd")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yfoee")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_mytjd")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_mytjd")
+theme_override_styles/focus = SubResource("StyleBoxFlat_mytjd")
+nodepath_to_call_method = NodePath("../..")
+call_the_method = "_on_back"
+translate_key = "KEY_BACK"
+
+[node name="ScoreContainer" type="Control" parent="GameManager/Display/GUI/HUD/Score"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("19_vnexe")
+
+[node name="AnimationContainer" type="AnimationPlayer" parent="GameManager/Display/GUI/HUD/Score/ScoreContainer"]
+reset_on_save = false
+method_call_mode = 1
+libraries = {
+"": SubResource("AnimationLibrary_kuyaq")
+}
+
+[node name="Elimination" type="Control" parent="GameManager/Display/GUI/HUD/Score/ScoreContainer"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -37.0
+offset_top = -3.0
+offset_right = 3.0
+offset_bottom = 37.0
+grow_horizontal = 0
+mouse_filter = 2
+script = ExtResource("20_rrptv")
+
+[node name="EnemyCount" type="Control" parent="GameManager/Display/GUI/HUD/Score/ScoreContainer/Elimination"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -96.0
+offset_bottom = 37.0
+grow_horizontal = 0
+mouse_filter = 2
+
+[node name="EnemyIcon" type="TextureRect" parent="GameManager/Display/GUI/HUD/Score/ScoreContainer/Elimination/EnemyCount"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -37.0
+offset_bottom = 37.0
+grow_horizontal = 0
+texture = ExtResource("19_iqyna")
+
+[node name="EnemyCountLabel" type="RichTextLabel" parent="GameManager/Display/GUI/HUD/Score/ScoreContainer/Elimination/EnemyCount"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -115.0
+offset_top = -3.5
+offset_right = -32.0
+offset_bottom = 18.5
+grow_horizontal = 0
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.901961, 0.815686, 0.72549, 1)
+theme_override_fonts/normal_font = ExtResource("19_hw5ow")
+theme_override_font_sizes/normal_font_size = 14
+bbcode_enabled = true
+text = "[right][shake rate=10.0 level=5]0x[/shake][/right]
+"
+scroll_active = false
+shortcut_keys_enabled = false
+
+[node name="AnimationIcon" type="AnimationPlayer" parent="GameManager/Display/GUI/HUD/Score/ScoreContainer/Elimination/EnemyCount"]
+autoplay = "anim_enemy_icon"
+reset_on_save = false
+libraries = {
+"": SubResource("AnimationLibrary_pb426")
+}
+
+[node name="AnimationLabel" type="AnimationPlayer" parent="GameManager/Display/GUI/HUD/Score/ScoreContainer/Elimination/EnemyCount"]
+reset_on_save = false
+method_call_mode = 1
+libraries = {
+"": SubResource("AnimationLibrary_51m4h")
+}
+
+[node name="Status" type="Node" parent="GameManager/Display/GUI/HUD"]
+
+[node name="Healths" type="Node" parent="GameManager/Display/GUI/HUD/Status"]
+script = ExtResource("25_kar06")
+
+[node name="HealthContainer" type="Control" parent="GameManager/Display/GUI/HUD/Status/Healths"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="VHealths" type="VBoxContainer" parent="GameManager/Display/GUI/HUD/Status/Healths/HealthContainer"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 74.0
+offset_bottom = 86.0
+theme_override_constants/separation = -2
+
+[node name="GameVFX" type="Node" parent="GameManager/Display/GUI"]
+script = ExtResource("22_n0tqx")
+
+[node name="VHS_FX" type="ColorRect" parent="GameManager/Display/GUI/GameVFX"]
+visible = false
+material = SubResource("ShaderMaterial_776pg")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.164706, 0.168627, 0.133333, 1)
+
+[node name="SceneManager" type="Node" parent="GameManager"]
+script = ExtResource("6_sxea1")
+
+[connection signal="animation_finished" from="GameManager/Display/GUI/Transitions/TransitionsAnimation" to="GameManager/Display/GUI/Transitions" method="_on_transitions_animation_animation_finished"]

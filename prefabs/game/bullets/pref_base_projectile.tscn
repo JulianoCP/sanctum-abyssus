@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://byuxiu56wgb2s"]
+
+[ext_resource type="Script" path="res://sources/game/prefabs/bullets/scp_base_projectile.gd" id="1_tb1yp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5vixh"]
+
+[node name="BaseProjectile" type="Area2D"]
+script = ExtResource("1_tb1yp")
+
+[node name="BulletSprite" type="Sprite2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_5vixh")
+
+[node name="TimeLeft" type="Timer" parent="."]
+one_shot = true

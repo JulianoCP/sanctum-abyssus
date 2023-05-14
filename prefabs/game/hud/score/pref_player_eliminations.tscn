@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbiqvvn8i0hui"]
+
+[ext_resource type="Script" path="res://sources/game/hud/results/scp_player_eliminations.gd" id="1_uhvas"]
+[ext_resource type="FontFile" uid="uid://bbc2v73so0sxg" path="res://assets/fonts/fnt_lobby_3.ttf" id="2_0hhsp"]
+
+[node name="PlayerEliminations" type="HBoxContainer"]
+offset_right = 143.0
+offset_bottom = 19.0
+mouse_filter = 2
+alignment = 1
+script = ExtResource("1_uhvas")
+
+[node name="PlayerName" type="Label" parent="."]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_0hhsp")
+theme_override_font_sizes/font_size = 8
+text = "PYLIOT - "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Kills" type="Label" parent="."]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_0hhsp")
+theme_override_font_sizes/font_size = 8
+text = "23x"
+horizontal_alignment = 1
+vertical_alignment = 1

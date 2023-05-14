@@ -1,0 +1,131 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Sanctum Abyssus"
+run/main_scene="res://scenes/game/scn_world.tscn"
+config/features=PackedStringArray("4.0")
+
+[autoload]
+
+SgGlobalSerializeManagement="*res://sources/global/sg_global_serialize_management.gd"
+SgGlobalReferences="*res://sources/global/sg_global_references.gd"
+SgEnumDebug="*res://sources/enums/sg_enum_debug.gd"
+SgEnumSteam="*res://sources/enums/sg_enum_steam.gd"
+SgGlobalSceneManagement="*res://sources/global/sg_global_scene_management.gd"
+SgGlobalEnums="*res://sources/global/sg_global_enums.gd"
+SgGlobalUtils="*res://sources/global/sg_global_utils.gd"
+
+[debug]
+
+settings/crash_handler/message="Contact the company to report a bug."
+settings/crash_handler/message.editor="Contact the company to report a bug."
+settings/gdscript/max_call_stack=4096
+gdscript/warnings/unsafe_cast=true
+gdscript/warnings/unsafe_call_argument=true
+gdscript/completion/autocomplete_setters_and_getters=true
+gdscript/warnings/unused_class_variable=true
+settings/visual_script/max_call_stack=4096
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=270
+window/size/resizable=false
+window/size/window_width_override=1280
+window/size/window_height_override=720
+mouse_cursor/custom_image="res://assets/textures/icons/marks/tx_point_mark_01.png"
+window/stretch/mode="canvas_items"
+
+[filesystem]
+
+import/blender/enabled=false
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[importer_defaults]
+
+texture={
+"compress/bptc_ldr": 0,
+"compress/hdr_mode": 0,
+"compress/lossy_quality": 0.7,
+"compress/mode": 0,
+"compress/normal_map": 0,
+"detect_3d": false,
+"flags/anisotropic": false,
+"flags/filter": false,
+"flags/mipmaps": false,
+"flags/repeat": 0,
+"flags/srgb": 2,
+"process/HDR_as_SRGB": false,
+"process/fix_alpha_border": true,
+"process/invert_color": false,
+"process/normal_map_invert_y": false,
+"process/premult_alpha": false,
+"size_limit": 0,
+"stream": false,
+"svg/scale": 1.0
+}
+
+[input]
+
+move_right_action={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":68,"key_label":0,"unicode":100,"echo":false,"script":null)
+]
+}
+move_left_action={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":65,"key_label":0,"unicode":97,"echo":false,"script":null)
+]
+}
+move_up_action={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":87,"key_label":0,"unicode":119,"echo":false,"script":null)
+]
+}
+move_down_action={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":83,"key_label":0,"unicode":115,"echo":false,"script":null)
+]
+}
+shoot={
+"deadzone": 0.5,
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":1,"position":Vector2(156, 18),"global_position":Vector2(160, 61),"factor":1.0,"button_index":1,"pressed":true,"double_click":false,"script":null)
+]
+}
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://assets/translations/SOA_TRANSLATION.en_US.translation", "res://assets/translations/SOA_TRANSLATION.pt_BR.translation")
+
+[locale]
+
+translations=PackedStringArray("res://assets/translations/SOA_TRANSLATION.pt_BR.translation", "res://assets/translations/SOA_TRANSLATION.en_US.translation")
+
+[memory]
+
+limits/message_queue/max_size_kb=8192
+limits/command_queue/multithreading_queue_size_kb=4096
+
+[physics]
+
+common/enable_pause_aware_picking=false
+
+[rendering]
+
+anti_aliasing/screen_space_roughness_limiter/enabled=false
+textures/canvas_textures/default_texture_filter=0
+2d/snapping/use_gpu_pixel_snap=true
+batching/precision/uv_contract=true
+limits/rendering/max_renderable_lights=1024

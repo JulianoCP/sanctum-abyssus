@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8nou5d7d4x8o"]
+
+[ext_resource type="Script" path="res://sources/game/prefabs/controllers/enemy/scp_enemy_spawn_location.gd" id="1_o5dfc"]
+[ext_resource type="Texture2D" uid="uid://cc5r36uqqikyh" path="res://assets/textures/components/icons/tx_enemy_arrow_spawn_icon.png" id="2_pqloj"]
+
+[node name="EnemySpawnLocation" type="Marker2D"]
+script = ExtResource("1_o5dfc")
+spawn_variation = 26
+
+[node name="ArrowIcon" type="Sprite2D" parent="."]
+position = Vector2(0, -11)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_pqloj")
+
+[node name="Label" type="Label" parent="ArrowIcon"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -58.0
+offset_top = -34.0
+offset_right = -6.0
+offset_bottom = -11.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(0.262745, 0.831373, 0.788235, 1)
+theme_override_font_sizes/font_size = 8
+text = "Enemy Spawn"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true

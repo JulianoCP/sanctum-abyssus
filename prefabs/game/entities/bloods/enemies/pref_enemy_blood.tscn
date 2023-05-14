@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=3 uid="uid://w2plmqqa7g02"]
+
+[ext_resource type="Script" path="res://sources/game/prefabs/decals/bloods/scp_enemy_blood_01.gd" id="1_15x10"]
+[ext_resource type="Texture2D" uid="uid://b78xemxw56l57" path="res://assets/textures/bloods/tx_enemy_blood_01.png" id="1_tyepq"]
+
+[sub_resource type="Animation" id="Animation_av5ry"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_pgkvu"]
+resource_name = "anim_enemy_blood_01"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 4, 5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(0.666667, 0.411765, 0.686275, 0), Color(0.494118, 0.478431, 0.784314, 0.588235), Color(0.494118, 0.478431, 0.784314, 0.588235), Color(0.666667, 0.411765, 0.686275, 0)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(5),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"destroy_decal"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_rpi03"]
+_data = {
+"RESET": SubResource("Animation_av5ry"),
+"anim_enemy_blood_01": SubResource("Animation_pgkvu")
+}
+
+[node name="EnemyBlood" type="Marker2D"]
+script = ExtResource("1_15x10")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+modulate = Color(0.666667, 0.411765, 0.686275, 0)
+z_index = -1
+texture = ExtResource("1_tyepq")
+
+[node name="AnimationBlood" type="AnimationPlayer" parent="."]
+autoplay = "anim_enemy_blood_01"
+libraries = {
+"": SubResource("AnimationLibrary_rpi03")
+}

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://crah6jklkt84u"]
+
+[ext_resource type="FontFile" uid="uid://bbc2v73so0sxg" path="res://assets/fonts/fnt_lobby_3.ttf" id="1"]
+[ext_resource type="Script" path="res://sources/game/display/buttons/scp_display_simple_button.gd" id="2"]
+
+[node name="PrefabSimpleButton" type="Button"]
+offset_right = 89.0
+offset_bottom = 17.0
+focus_mode = 0
+theme_override_fonts/font = ExtResource("1")
+theme_override_font_sizes/font_size = 8
+text = "BUTTON"
+clip_text = true
+script = ExtResource("2")
+translate_key = "KEY_UNKNOWN"
+
+[connection signal="button_down" from="." to="." method="_on_PrefabLobbyMiddleButton_button_down"]
