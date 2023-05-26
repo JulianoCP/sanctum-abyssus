@@ -1,3 +1,3 @@
-[image]([https://user-images.githubusercontent.com/6977257/70183153-fbf82980-16c3-11ea-9de1-9c08bcf16461.pn](https://github.com/JulianoCP/SanctumAbyssus/assets/git/SanctumAbyssusLogo.png)
+[image](https://github.com/JulianoCP/SanctumAbyssus/assets/git/SanctumAbyssusLogo.png)
 
 ## Overview
