@@ -1,3 +1,3 @@
-[image](https://github.com/JulianoCP/SanctumAbyssus/assets/git/SanctumAbyssusLogo.png)
+[logo]: (https://github.com/JulianoCP/SanctumAbyssus/assets/git/SanctumAbyssusLogo.png)
 
 ## Overview
