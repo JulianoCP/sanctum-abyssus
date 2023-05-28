@@ -8,8 +8,8 @@ Next, we will present some images of the key elements of the game, such as the i
 ## Lobby Screen:
 ![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusLobby.png "SoaLobby")
 
-## Game GIF:
-![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusGame.gif "SoaGame")
+## Game Screen:
+![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusGame.png "SoaGame")
 
 ## Results Screen:
 ![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusResult.png "SoaResult")
