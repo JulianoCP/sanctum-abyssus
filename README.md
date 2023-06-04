@@ -1,7 +1,7 @@
 ![Sanctum Logo](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusLogo.png "SoaLogo")
 
 ## Overview
-Sanctum Abyssus is a twin stick shooter game developed using the Godot Engine in conjunction with the Steam SDK. It offers an exciting multiplayer experience filled with action and quick decision-making to ensure the players' survival. Face a relentless horde of enemies that gather and advance against you, challenging your skills and teamwork.
+**Sanctum Abyssus** is a twin stick shooter game developed using the **Godot Engine** in conjunction with the **Steam SDK**. It offers an exciting multiplayer experience filled with action and quick decision-making to ensure the players' survival. Face a relentless horde of enemies that gather and advance against you, challenging your skills and teamwork.
 
 ## How to Execute
 Necessary steps to run:
@@ -11,7 +11,7 @@ Necessary steps to run:
 
 To complete the process, you just need to launch the **Godot** editor and select the desired project. Ensure that the **Steam** platform is running in the background so that the necessary **Steam** integration resources are available during both development and testing phases.
 ## Showcase
-Next, we will present some images of the key elements of the game, such as the initial lobby.
+Next, we will present some images of the key elements of the game.
 ### Lobby Screen:
 ![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusLobby.png "SoaLobby")
 
@@ -21,7 +21,7 @@ Next, we will present some images of the key elements of the game, such as the i
 ### Result Screen:
 ![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusResult.png "SoaResult")
 
-In the following GIF, we will present a brief demonstration of the game being played in multiplayer mode, with communication being carried out through the Steam platform.
+In the following GIF, we will present a brief demonstration of the game being played in multiplayer mode, with communication being carried out through the **Steam** platform.
 
 ### Multiplayer:
 ![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusGif.gif "SoaGif")
