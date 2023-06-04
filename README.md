@@ -21,7 +21,6 @@ Next, we will present some images of the key elements of the game.
 ### Result Screen:
 ![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusResult.png "SoaResult")
 
-In the following GIF, we will present a brief demonstration of the game being played in multiplayer mode, with communication being carried out through the **Steam** platform.
-
 ### Multiplayer:
+In the following GIF, we will present a brief demonstration of the game being played in multiplayer mode, with communication being carried out through the **Steam** platform.
 ![Soa](https://github.com/JulianoCP/SanctumAbyssus/blob/main/assets/git/SanctumAbyssusGif.gif "SoaGif")
