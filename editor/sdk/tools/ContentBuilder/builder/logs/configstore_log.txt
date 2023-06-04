@@ -1,0 +1,330 @@
+
+
+[2022-05-21 14:19:49] Failed to read store 'install' from 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2022-05-21 14:19:49] Failed to read store 'install' from 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2022-05-21 14:19:49] Failed to read store 'install' from 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2022-05-21 14:19:49] Failed to read store 'install' from 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2022-05-21 14:19:50] Flushed store 'install' to 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-21 14:19:51] Flushed store 'install' to 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-21 14:20:11] Flushed store 'install' to 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-21 14:20:11] Failed to read store 'userlocal' from 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf.tmp'
+[2022-05-21 14:20:12] Flushed store 'install' to 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-21 14:20:12] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-21 14:20:13] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-21 14:20:13] Flushed store 'install' to 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-21 14:20:15] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-22 00:05:14] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 00:05:14] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 00:05:14] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 00:05:14] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 00:05:14] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-22 00:05:14] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 00:05:14] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 00:05:15] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 00:05:16] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 00:05:17] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 00:05:17] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 00:05:17] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+
+
+[2022-05-22 20:44:29] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 20:44:29] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 20:44:29] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 20:44:29] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 20:44:29] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-22 20:44:29] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 20:44:30] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 20:44:31] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 20:44:31] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 20:44:33] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 20:44:33] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+
+
+[2022-05-22 21:05:31] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:05:31] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:05:31] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:05:31] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:05:31] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-22 21:05:31] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:05:31] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:05:33] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:05:33] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 21:05:33] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:05:34] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-22 21:24:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:24:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:24:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:24:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:24:34] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-22 21:24:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:24:35] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:24:36] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:24:37] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 21:24:38] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:24:38] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-22 21:58:53] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:58:53] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:58:53] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:58:53] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:58:53] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-22 21:58:53] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 21:58:54] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:58:55] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:58:55] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 21:58:57] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 21:58:57] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-22 22:00:52] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:00:52] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:00:52] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:00:52] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:00:52] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-22 22:00:52] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:00:52] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 22:00:54] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 22:00:54] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 22:00:55] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 22:00:56] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+
+
+[2022-05-22 22:58:20] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:58:20] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:58:20] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:58:20] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:58:20] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-22 22:58:20] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-22 22:58:20] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 22:58:21] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 22:58:22] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-22 22:58:23] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-22 22:58:23] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-23 16:44:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 16:44:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 16:44:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 16:44:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 16:44:34] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-23 16:44:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 16:44:34] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 16:44:36] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 16:44:36] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-23 16:44:37] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 16:44:38] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-23 17:01:07] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:01:07] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:01:07] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:01:07] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:01:07] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-23 17:01:07] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:01:08] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:01:09] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:01:09] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-23 17:01:09] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:01:10] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-23 17:03:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:15] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-23 17:03:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:16] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:03:17] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:03:17] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-23 17:03:18] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:03:18] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-23 17:03:45] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:45] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:45] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:45] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:45] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-23 17:03:45] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:03:45] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:03:46] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:03:47] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-23 17:03:47] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:03:48] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-23 17:03:48] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+
+
+[2022-05-23 17:59:05] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:59:05] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:59:05] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:59:05] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:59:05] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-23 17:59:05] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-23 17:59:06] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:59:07] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:59:07] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-23 17:59:08] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-23 17:59:08] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-24 23:26:08] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-24 23:26:08] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-24 23:26:08] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-24 23:26:08] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-24 23:26:08] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-24 23:26:08] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-24 23:26:08] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-24 23:26:09] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-24 23:26:09] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-24 23:26:11] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-24 23:26:11] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-25 18:24:03] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 18:24:03] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 18:24:03] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 18:24:03] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 18:24:03] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-25 18:24:03] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 18:24:03] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-25 18:24:04] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-25 18:24:05] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-25 18:24:06] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-25 18:24:07] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-25 23:32:33] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:32:33] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:32:33] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:32:33] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:32:33] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-25 23:32:33] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:32:33] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-25 23:32:35] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-25 23:32:35] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-25 23:32:37] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-25 23:32:37] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-05-25 23:40:16] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:40:16] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:40:16] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:40:16] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:40:16] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-25 23:40:16] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-25 23:40:16] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-25 23:40:18] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-25 23:40:18] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-25 23:40:19] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-25 23:40:20] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+
+
+[2022-05-30 17:23:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-30 17:23:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-30 17:23:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-30 17:23:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-30 17:23:34] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-05-30 17:23:34] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-30 17:23:34] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-30 17:23:35] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-30 17:23:36] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-05-30 17:23:37] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-30 17:23:38] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-06-08 14:31:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-08 14:31:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-08 14:31:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-08 14:31:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-08 14:31:15] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-06-08 14:31:15] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-08 14:31:16] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-08 14:31:17] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-08 14:31:18] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-06-08 14:31:19] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-08 14:31:20] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-06-08 14:31:23] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-06-10 00:02:51] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 00:02:51] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 00:02:51] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 00:02:51] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 00:02:51] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-06-10 00:02:51] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 00:02:51] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 00:02:52] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 00:02:53] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-06-10 00:02:53] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 00:02:55] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-06-10 01:27:04] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:27:04] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:27:04] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:27:04] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:27:04] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-06-10 01:27:04] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:27:04] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 01:27:06] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 01:27:06] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-06-10 01:27:07] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 01:27:07] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-06-10 01:33:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:33:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:33:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:33:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:33:46] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-06-10 01:33:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-10 01:33:46] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 01:33:47] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 01:33:48] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-06-10 01:33:49] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-10 01:33:49] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-06-28 14:48:54] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 14:48:54] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 14:48:54] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 14:48:54] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 14:48:54] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-06-28 14:48:54] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 14:48:54] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 14:48:55] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 14:48:56] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-06-28 14:48:57] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 14:48:57] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-06-28 15:32:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:32:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:32:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:32:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:32:46] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-06-28 15:32:46] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:32:46] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 15:32:47] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 15:32:48] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-06-28 15:32:48] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 15:32:49] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+
+
+[2022-06-28 15:37:09] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:37:09] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:37:09] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:37:09] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:37:09] Loaded store 'userlocal' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf' successfully
+[2022-06-28 15:37:09] Loaded store 'install' from 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-06-28 15:37:09] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 15:37:10] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 15:37:10] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'
+[2022-06-28 15:37:11] Flushed store 'install' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-06-28 15:37:12] Flushed store 'userlocal' to 'C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\userdata\1324653550\config\localconfig.vdf'

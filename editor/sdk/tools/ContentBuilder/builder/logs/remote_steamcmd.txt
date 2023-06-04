@@ -1,0 +1,77 @@
+
+
+[2022-05-21 14:20:11] Couldn't bind to broadcast port 27036
+
+
+[2022-05-22 00:05:15] Couldn't bind to broadcast port 27036
+
+
+[2022-05-22 20:44:31] Couldn't bind to broadcast port 27036
+
+
+[2022-05-22 21:05:32] Couldn't bind to broadcast port 27036
+
+
+[2022-05-22 21:24:36] Couldn't bind to broadcast port 27036
+
+
+[2022-05-22 21:58:55] Couldn't bind to broadcast port 27036
+
+
+[2022-05-22 22:00:53] Couldn't bind to broadcast port 27036
+
+
+[2022-05-22 22:58:21] Couldn't bind to broadcast port 27036
+
+
+[2022-05-23 16:44:35] Couldn't bind to broadcast port 27036
+
+
+[2022-05-23 17:01:08] Couldn't bind to broadcast port 27036
+
+
+[2022-05-23 17:03:16] Couldn't bind to broadcast port 27036
+
+
+[2022-05-23 17:03:46] Couldn't bind to broadcast port 27036
+
+
+[2022-05-23 17:59:06] Couldn't bind to broadcast port 27036
+
+
+[2022-05-24 23:26:09] Couldn't bind to broadcast port 27036
+
+
+[2022-05-25 18:24:04] Couldn't bind to broadcast port 27036
+
+
+[2022-05-25 23:32:34] Couldn't bind to broadcast port 27036
+
+
+[2022-05-25 23:40:17] Couldn't bind to broadcast port 27036
+
+
+[2022-05-30 17:23:35] Couldn't bind to broadcast port 27036
+
+
+[2022-06-08 14:31:17] Couldn't bind to broadcast port 27036
+
+
+[2022-06-10 00:02:52] Couldn't bind to broadcast port 27036
+
+
+[2022-06-10 01:27:05] Couldn't bind to broadcast port 27036
+
+
+[2022-06-10 01:33:47] Generated client id: 17172783098002304629
+[2022-06-10 01:33:47] Listening for IPv4 broadcast on: 27036
+[2022-06-10 01:33:47] Listening for connections on: 0.0.0.0:27036
+
+
+[2022-06-28 14:48:55] Couldn't bind to broadcast port 27036
+
+
+[2022-06-28 15:32:47] Couldn't bind to broadcast port 27036
+
+
+[2022-06-28 15:37:10] Couldn't bind to broadcast port 27036

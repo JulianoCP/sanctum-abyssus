@@ -1,0 +1,75 @@
+
+
+[2022-05-21 14:20:11] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-22 00:05:14] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-22 20:44:29] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-22 21:05:31] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-22 21:24:35] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-22 21:58:53] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-22 22:00:52] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-22 22:58:20] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-23 16:44:34] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-23 17:01:07] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-23 17:03:15] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-23 17:03:45] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-23 17:59:05] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-24 23:26:08] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-25 18:24:03] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-25 23:32:33] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-25 23:40:16] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-05-30 17:23:34] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-06-08 14:31:15] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-06-10 00:02:51] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-06-10 01:27:04] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-06-10 01:33:46] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-06-28 14:48:54] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-06-28 15:32:46] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+
+
+[2022-06-28 15:37:09] Loaded 0 apps from install folder "C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".

@@ -1,0 +1,13 @@
+[2022-06-28 15:37:11]: Starting build for depot 2007001, content path is "C:\Users\Juliano\Documents\GitHub\narkian_project\builds\windows", build flags 0x0
+[2022-06-28 15:37:11]: Building file listing for depot 2007001 ...
+[2022-06-28 15:37:11]: Found 5 files for mapping: C:\Users\Juliano\Documents\GitHub\narkian_project\builds\windows * -> .
+[2022-06-28 15:37:11]: Found 5 files (79 MB) for depot 2007001
+[2022-06-28 15:37:12]: Building depot 2007001, baseline manifest 5181865913827448567 (5 files)
+[2022-06-28 15:37:13]: Found 86 chunks ( 78 used previously ) for depot 2007001, took 0 minutes, 0 seconds
+[2022-06-28 15:37:13]: Changes to baseline manifest 5181865913827448567 :
+[2022-06-28 15:37:13]: Changed: "shadowofasha.exe" 35888 kB size, 1024 kB changed 
+[2022-06-28 15:37:13]: Changed: "shadowofasha.pck" 20722 kB size, 17650 kB changed 
+[2022-06-28 15:37:13]: Summary: 0 files added, 2 files changed, 0 files removed
+[2022-06-28 15:37:13]: Uploading new manifest to 208.64.201.204:80 (handle 12174138028074415934, 3413 bytes).
+[2022-06-28 15:37:14]: Uploading 21 out of 21 missing chunks.
+[2022-06-28 15:37:18]: Success! New manifestID 6268517467021052284 created and 21 new chunks uploaded.

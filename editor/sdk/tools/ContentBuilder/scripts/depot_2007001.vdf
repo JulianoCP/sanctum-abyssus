@@ -1,0 +1,12 @@
+"DepotBuildConfig"
+{
+	"DepotID" "2007001"
+	"contentroot" "C:\Users\Juliano\Documents\GitHub\narkian_project\builds\windows"
+	"FileMapping"
+	{
+		"LocalPath" "*"
+		"DepotPath" "."
+		"recursive" "1"
+	}
+	"FileExclusion" "*.pdb"
+}

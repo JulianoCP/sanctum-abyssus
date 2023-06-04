@@ -1,0 +1,14 @@
+Content Manifest for Depot 2007001 
+
+Manifest ID / date     : 0 / Wed Dec 31 21:00:00 1969 
+Total number of files  : 4 
+Total number of chunks : 0 
+Total bytes on disk    : 0 
+Total bytes compressed : 0 
+CRC raw / encrypted    : 0x0 / 0x0 
+
+          Size Chunks File SHA                                 Flags Name
+    36,748,800     36 c93d456a54c69677e4d4d7a4b05d21a8394d786f     0 shadowofasha.exe
+     6,865,440     10 f40541846e65a159a587dcba599290e2e8b09e0b     0 shadowofasha.pck
+       295,336      1 b13f17561a9a0671befbebf0aae7b51bcc0072df     0 steam_api64.dll
+             7      1 9e8f6d8db2e01285bcb4e43b8065ad42b0e59945     0 steam_appid.txt

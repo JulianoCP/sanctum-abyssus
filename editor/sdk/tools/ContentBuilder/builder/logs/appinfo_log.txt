@@ -1,0 +1,296 @@
+
+
+[2022-05-21 14:20:11] RequestAppInfoUpdate: AppIDs 7
+[2022-05-21 14:20:11] Change number 0->14882494, apps: 0/0, packages: 0/0
+[2022-05-21 14:20:11] Requesting 1 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-21 14:20:12] Downloaded 1 apps via HTTP, 13 KB (3 KB compressed)
+[2022-05-21 14:20:12] Requesting 0 apps, 3 packages (full data, 1024 prev attempts)
+[2022-05-21 14:20:12] UpdatesJob: finished OK, apps updated 1 (13 KB), packages updated 3 (9 KB)
+[2022-05-21 14:20:12] Requesting 196 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-21 14:20:13] Requested 39 app access tokens, 38 received, 1 denied
+[2022-05-21 14:20:13] Updated SHAs with 38 new access tokens
+[2022-05-21 14:20:13] Downloaded 7 apps via HTTP, 481 KB (78 KB compressed)
+[2022-05-21 14:20:13] Requesting 189 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-21 14:20:14] UpdatesJob: finished OK, apps updated 196 (818 KB), packages updated 0 (0 KB)
+[2022-05-21 14:20:23] Starting async write C:\Users\Juliano\Desktop\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (653559 bytes)
+
+
+[2022-05-22 00:05:15] RequestAppInfoUpdate: AppIDs 7
+[2022-05-22 00:05:15] Packages changed: force all
+[2022-05-22 00:05:15] Apps changed: force all
+[2022-05-22 00:05:15] Change number 14882494->14884767, apps: 0/0, packages: 0/0
+[2022-05-22 00:05:15] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-22 00:05:16] Requested 39 app access tokens, 38 received, 1 denied
+[2022-05-22 00:05:16] Updated SHAs with 38 new access tokens
+[2022-05-22 00:05:16] Downloaded 1 apps via HTTP, 8 KB (2 KB compressed)
+[2022-05-22 00:05:16] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-22 00:05:17] UpdatesJob: finished OK, apps updated 2 (10 KB), packages updated 0 (0 KB)
+[2022-05-22 00:05:22] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (653818 bytes)
+
+
+[2022-05-22 20:44:31] RequestAppInfoUpdate: AppIDs 7
+[2022-05-22 20:44:31] Packages changed: force all
+[2022-05-22 20:44:31] Apps changed: force all
+[2022-05-22 20:44:31] Change number 14884767->14889795, apps: 0/0, packages: 0/0
+[2022-05-22 20:44:31] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-22 20:44:32] Requested 39 app access tokens, 38 received, 1 denied
+[2022-05-22 20:44:32] Updated SHAs with 38 new access tokens
+[2022-05-22 20:44:32] Downloaded 1 apps via HTTP, 8 KB (2 KB compressed)
+[2022-05-22 20:44:32] Requesting 4 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-22 20:44:33] UpdatesJob: finished OK, apps updated 5 (27 KB), packages updated 0 (0 KB)
+[2022-05-22 20:44:37] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (653818 bytes)
+
+
+[2022-05-22 21:05:32] RequestAppInfoUpdate: AppIDs 7
+[2022-05-22 21:05:33] Packages changed: 
+[2022-05-22 21:05:33] Apps changed: 2007000=14889803,
+[2022-05-22 21:05:33] Change number 14889795->14889899, apps: 1/89, packages: 0/5
+[2022-05-22 21:05:33] Requesting 3 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-22 21:05:33] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-22 21:05:33] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-22 21:05:34] UpdatesJob: finished OK, apps updated 1 (1 KB), packages updated 0 (0 KB)
+[2022-05-22 21:05:37] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (653818 bytes)
+
+
+[2022-05-22 21:24:36] RequestAppInfoUpdate: AppIDs 7
+[2022-05-22 21:24:37] Packages changed: 
+[2022-05-22 21:24:37] Apps changed: 2007000=14889903,
+[2022-05-22 21:24:37] Change number 14889899->14889965, apps: 1/49, packages: 0/6
+[2022-05-22 21:24:37] Requesting 3 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-22 21:24:37] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-22 21:24:37] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-22 21:24:38] UpdatesJob: finished OK, apps updated 1 (1 KB), packages updated 0 (0 KB)
+[2022-05-22 21:24:40] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (653818 bytes)
+
+
+[2022-05-22 21:58:55] RequestAppInfoUpdate: AppIDs 7
+[2022-05-22 21:58:55] Packages changed: 
+[2022-05-22 21:58:55] Apps changed: 443030=14890065,2007000=14889969,
+[2022-05-22 21:58:55] Change number 14889965->14890096, apps: 2/87, packages: 0/8
+[2022-05-22 21:58:55] Requesting 4 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-22 21:58:56] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-22 21:58:56] Downloaded 1 apps via HTTP, 8 KB (2 KB compressed)
+[2022-05-22 21:58:56] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-22 21:58:56] UpdatesJob: finished OK, apps updated 2 (10 KB), packages updated 0 (0 KB)
+[2022-05-22 21:58:59] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (653818 bytes)
+
+
+[2022-05-22 22:00:53] RequestAppInfoUpdate: AppIDs 7
+[2022-05-22 22:00:54] Apps changed: 
+[2022-05-22 22:00:54] Change number 14890096->14890110, apps: 0/10, packages: 0/0
+[2022-05-22 22:00:54] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-22 22:00:55] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-22 22:00:55] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2022-05-22 22:58:21] RequestAppInfoUpdate: AppIDs 7
+[2022-05-22 22:58:22] Packages changed: force all
+[2022-05-22 22:58:22] Apps changed: 1874900=14890204,2007000=14890115,
+[2022-05-22 22:58:22] Change number 14890110->14890526, apps: 2/263, packages: 0/0
+[2022-05-22 22:58:22] Requesting 4 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-22 22:58:22] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-22 22:58:22] Requesting 2 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-22 22:58:23] UpdatesJob: finished OK, apps updated 2 (6 KB), packages updated 0 (0 KB)
+[2022-05-22 22:58:27] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (653818 bytes)
+
+
+[2022-05-23 16:44:36] RequestAppInfoUpdate: AppIDs 7
+[2022-05-23 16:44:36] Packages changed: force all
+[2022-05-23 16:44:36] Apps changed: force all
+[2022-05-23 16:44:36] Change number 14890526->14898860, apps: 0/0, packages: 0/0
+[2022-05-23 16:44:36] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-23 16:44:37] Requested 39 app access tokens, 38 received, 1 denied
+[2022-05-23 16:44:37] Updated SHAs with 38 new access tokens
+[2022-05-23 16:44:37] Downloaded 2 apps via HTTP, 378 KB (53 KB compressed)
+[2022-05-23 16:44:37] Requesting 4 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-23 16:44:37] UpdatesJob: finished OK, apps updated 6 (393 KB), packages updated 0 (0 KB)
+[2022-05-23 16:44:44] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (654170 bytes)
+
+
+[2022-05-23 17:01:08] RequestAppInfoUpdate: AppIDs 7
+[2022-05-23 17:01:09] Packages changed: force all
+[2022-05-23 17:01:09] Apps changed: 2007000=14898871,
+[2022-05-23 17:01:09] Change number 14898860->14898976, apps: 1/82, packages: 0/0
+[2022-05-23 17:01:09] Requesting 3 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-23 17:01:10] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-23 17:01:10] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-23 17:01:10] UpdatesJob: finished OK, apps updated 1 (1 KB), packages updated 0 (0 KB)
+[2022-05-23 17:01:11] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (654170 bytes)
+
+
+[2022-05-23 17:03:16] RequestAppInfoUpdate: AppIDs 7
+[2022-05-23 17:03:17] Apps changed: 
+[2022-05-23 17:03:17] Change number 14898976->14898987, apps: 0/11, packages: 0/0
+[2022-05-23 17:03:17] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-23 17:03:18] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-23 17:03:18] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2022-05-23 17:03:46] RequestAppInfoUpdate: AppIDs 7
+[2022-05-23 17:03:46] Apps changed: 
+[2022-05-23 17:03:46] Change number 14898987->14898988, apps: 0/1, packages: 0/0
+[2022-05-23 17:03:47] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-23 17:03:47] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-23 17:03:47] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2022-05-23 17:59:07] RequestAppInfoUpdate: AppIDs 7
+[2022-05-23 17:59:07] Packages changed: force all
+[2022-05-23 17:59:07] Apps changed: 2007000=14898991,
+[2022-05-23 17:59:07] Change number 14898988->14899380, apps: 1/273, packages: 0/0
+[2022-05-23 17:59:07] Requesting 3 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-23 17:59:08] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-23 17:59:08] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-23 17:59:08] UpdatesJob: finished OK, apps updated 1 (1 KB), packages updated 0 (0 KB)
+[2022-05-23 17:59:13] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (654170 bytes)
+
+
+[2022-05-24 23:26:09] RequestAppInfoUpdate: AppIDs 7
+[2022-05-24 23:26:09] Packages changed: force all
+[2022-05-24 23:26:09] Apps changed: force all
+[2022-05-24 23:26:09] Change number 14899380->14912652, apps: 0/0, packages: 0/0
+[2022-05-24 23:26:09] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-24 23:26:10] Requested 39 app access tokens, 38 received, 1 denied
+[2022-05-24 23:26:10] Updated SHAs with 38 new access tokens
+[2022-05-24 23:26:10] Downloaded 4 apps via HTTP, 417 KB (65 KB compressed)
+[2022-05-24 23:26:10] Requesting 8 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-24 23:26:11] UpdatesJob: finished OK, apps updated 12 (446 KB), packages updated 0 (0 KB)
+[2022-05-24 23:26:16] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (654296 bytes)
+
+
+[2022-05-25 18:24:04] RequestAppInfoUpdate: AppIDs 7
+[2022-05-25 18:24:05] Packages changed: force all
+[2022-05-25 18:24:05] Apps changed: force all
+[2022-05-25 18:24:05] Change number 14912652->14922625, apps: 0/0, packages: 0/0
+[2022-05-25 18:24:05] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-25 18:24:05] Requested 39 app access tokens, 38 received, 1 denied
+[2022-05-25 18:24:06] Updated SHAs with 38 new access tokens
+[2022-05-25 18:24:06] Downloaded 2 apps via HTTP, 19 KB (5 KB compressed)
+[2022-05-25 18:24:06] Requesting 6 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-25 18:24:06] UpdatesJob: finished OK, apps updated 8 (40 KB), packages updated 0 (0 KB)
+[2022-05-25 18:24:12] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (654067 bytes)
+
+
+[2022-05-25 23:32:35] RequestAppInfoUpdate: AppIDs 7
+[2022-05-25 23:32:35] Packages changed: force all
+[2022-05-25 23:32:35] Apps changed: force all
+[2022-05-25 23:32:35] Change number 14922625->14924737, apps: 0/0, packages: 0/0
+[2022-05-25 23:32:35] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-25 23:32:36] Requested 39 app access tokens, 38 received, 1 denied
+[2022-05-25 23:32:36] Updated SHAs with 38 new access tokens
+[2022-05-25 23:32:36] Downloaded 2 apps via HTTP, 378 KB (53 KB compressed)
+[2022-05-25 23:32:36] Requesting 4 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-25 23:32:36] UpdatesJob: finished OK, apps updated 6 (392 KB), packages updated 0 (0 KB)
+[2022-05-25 23:32:41] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (654067 bytes)
+
+
+[2022-05-25 23:40:18] RequestAppInfoUpdate: AppIDs 7
+[2022-05-25 23:40:18] Packages changed: force all
+[2022-05-25 23:40:18] Apps changed: 2007000=14924756,
+[2022-05-25 23:40:18] Change number 14924737->14924781, apps: 1/27, packages: 0/0
+[2022-05-25 23:40:18] Requesting 3 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-25 23:40:18] Requested 1 app access tokens, 0 received, 1 denied
+[2022-05-25 23:40:18] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-25 23:40:19] UpdatesJob: finished OK, apps updated 1 (1 KB), packages updated 0 (0 KB)
+[2022-05-25 23:40:24] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (654067 bytes)
+
+
+[2022-05-30 17:23:35] RequestAppInfoUpdate: AppIDs 7
+[2022-05-30 17:23:36] Packages changed: force all
+[2022-05-30 17:23:36] Apps changed: force all
+[2022-05-30 17:23:36] Change number 14924781->14967021, apps: 0/0, packages: 0/0
+[2022-05-30 17:23:36] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-05-30 17:23:36] Requested 39 app access tokens, 38 received, 1 denied
+[2022-05-30 17:23:37] Updated SHAs with 38 new access tokens
+[2022-05-30 17:23:37] Downloaded 2 apps via HTTP, 378 KB (53 KB compressed)
+[2022-05-30 17:23:37] Requesting 10 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-30 17:23:37] UpdatesJob: finished OK, apps updated 12 (413 KB), packages updated 0 (0 KB)
+[2022-05-30 17:23:44] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (654880 bytes)
+
+
+[2022-06-08 14:31:17] RequestAppInfoUpdate: AppIDs 7
+[2022-06-08 14:31:17] Packages changed: force all
+[2022-06-08 14:31:17] Apps changed: force all
+[2022-06-08 14:31:17] Change number 14967021->15062062, apps: 0/0, packages: 0/0
+[2022-06-08 14:31:17] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-06-08 14:31:18] Requested 39 app access tokens, 38 received, 1 denied
+[2022-06-08 14:31:18] Updated SHAs with 38 new access tokens
+[2022-06-08 14:31:19] Downloaded 5 apps via HTTP, 429 KB (68 KB compressed)
+[2022-06-08 14:31:19] Requesting 25 apps, 0 packages (full data, 1024 prev attempts)
+[2022-06-08 14:31:19] UpdatesJob: finished OK, apps updated 30 (498 KB), packages updated 0 (0 KB)
+[2022-06-08 14:31:25] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (655644 bytes)
+
+
+[2022-06-10 00:02:52] RequestAppInfoUpdate: AppIDs 7
+[2022-06-10 00:02:53] Packages changed: force all
+[2022-06-10 00:02:53] Apps changed: force all
+[2022-06-10 00:02:53] Change number 15062062->15079008, apps: 0/0, packages: 0/0
+[2022-06-10 00:02:53] Requesting 197 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-06-10 00:02:53] Requested 38 app access tokens, 37 received, 1 denied
+[2022-06-10 00:02:54] Updated SHAs with 37 new access tokens
+[2022-06-10 00:02:54] Downloaded 3 apps via HTTP, 410 KB (62 KB compressed)
+[2022-06-10 00:02:54] Requesting 8 apps, 1 packages (full data, 1024 prev attempts)
+[2022-06-10 00:02:54] UpdatesJob: finished OK, apps updated 11 (444 KB), packages updated 1 (9 KB)
+[2022-06-10 00:02:54] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-06-10 00:02:55] Requested 2 app access tokens, 1 received, 1 denied
+[2022-06-10 00:02:55] Updated SHAs with 1 new access tokens
+[2022-06-10 00:02:55] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-06-10 00:02:55] UpdatesJob: finished OK, apps updated 1 (0 KB), packages updated 0 (0 KB)
+[2022-06-10 00:02:59] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (657220 bytes)
+
+
+[2022-06-10 01:27:05] RequestAppInfoUpdate: AppIDs 7
+[2022-06-10 01:27:06] Packages changed: force all
+[2022-06-10 01:27:06] Apps changed: 443030=15079157,2007000=15079075,
+[2022-06-10 01:27:06] Change number 15079008->15079570, apps: 2/392, packages: 0/0
+[2022-06-10 01:27:06] Requesting 4 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-06-10 01:27:06] Requested 1 app access tokens, 0 received, 1 denied
+[2022-06-10 01:27:07] Downloaded 1 apps via HTTP, 8 KB (2 KB compressed)
+[2022-06-10 01:27:07] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-06-10 01:27:07] UpdatesJob: finished OK, apps updated 2 (11 KB), packages updated 0 (0 KB)
+[2022-06-10 01:27:09] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (657220 bytes)
+
+
+[2022-06-10 01:33:47] RequestAppInfoUpdate: AppIDs 7
+[2022-06-10 01:33:47] Apps changed: 2007000=15079582,
+[2022-06-10 01:33:47] Change number 15079570->15079595, apps: 1/22, packages: 0/0
+[2022-06-10 01:33:47] Requesting 3 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-06-10 01:33:48] Requested 1 app access tokens, 0 received, 1 denied
+[2022-06-10 01:33:48] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-06-10 01:33:48] UpdatesJob: finished OK, apps updated 1 (2 KB), packages updated 0 (0 KB)
+[2022-06-10 01:33:53] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (657220 bytes)
+
+
+[2022-06-28 14:48:55] RequestAppInfoUpdate: AppIDs 7
+[2022-06-28 14:48:56] Packages changed: force all
+[2022-06-28 14:48:56] Apps changed: force all
+[2022-06-28 14:48:56] Change number 15079595->15263242, apps: 0/0, packages: 0/0
+[2022-06-28 14:48:56] Requesting 198 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-06-28 14:48:56] Requested 39 app access tokens, 38 received, 1 denied
+[2022-06-28 14:48:57] Updated SHAs with 38 new access tokens
+[2022-06-28 14:48:57] Downloaded 9 apps via HTTP, 505 KB (84 KB compressed)
+[2022-06-28 14:48:57] Requesting 25 apps, 0 packages (full data, 1024 prev attempts)
+[2022-06-28 14:48:57] UpdatesJob: finished OK, apps updated 34 (575 KB), packages updated 0 (0 KB)
+[2022-06-28 14:49:07] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (658830 bytes)
+
+
+[2022-06-28 15:32:47] RequestAppInfoUpdate: AppIDs 7
+[2022-06-28 15:32:47] Packages changed: force all
+[2022-06-28 15:32:47] Apps changed: 2007000=15263488,1493710=15263460,219=15263338,
+[2022-06-28 15:32:47] Change number 15263242->15263695, apps: 3/353, packages: 0/0
+[2022-06-28 15:32:48] Requesting 5 apps, 3 packages (meta data, 1024 prev attempts)
+[2022-06-28 15:32:48] Requested 1 app access tokens, 0 received, 1 denied
+[2022-06-28 15:32:48] Requesting 3 apps, 0 packages (full data, 1024 prev attempts)
+[2022-06-28 15:32:48] UpdatesJob: finished OK, apps updated 3 (9 KB), packages updated 0 (0 KB)
+[2022-06-28 15:32:51] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (658940 bytes)
+
+
+[2022-06-28 15:37:10] RequestAppInfoUpdate: AppIDs 7
+[2022-06-28 15:37:10] Packages changed: 
+[2022-06-28 15:37:10] Apps changed: 2007000=15263703,
+[2022-06-28 15:37:10] Change number 15263695->15263722, apps: 1/24, packages: 0/2
+[2022-06-28 15:37:10] Requesting 3 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-06-28 15:37:11] Requested 1 app access tokens, 0 received, 1 denied
+[2022-06-28 15:37:11] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-06-28 15:37:11] UpdatesJob: finished OK, apps updated 1 (2 KB), packages updated 0 (0 KB)
+[2022-06-28 15:37:19] Starting async write C:\Users\Juliano\Desktop\Godot\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (658940 bytes)
